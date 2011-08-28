@@ -1,0 +1,4 @@
+{% extends skin_template_path('normal_gadget.html.twig') %}
+
+{% block caption %}{{ gadget.caption }}{% endblock %}
+{% block content %}{{ gadget.parameters.body | raw }}{% endblock %}
